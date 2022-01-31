@@ -4,7 +4,7 @@ Provides headless screaming frogs.
 
 Helped by [`databulle`](https://www.databulle.com/blog/seo/screaming-frog-headless.html) - thank you!
 
-Contains a Docker installation Ubuntu ScreamingFrog v10 intended to be used for its [Command Line Interface](https://www.screamingfrog.co.uk/seo-spider/user-guide/general/#command-line).
+Contains a Docker installation Ubuntu ScreamingFrog v16.5 intended to be used for its [Command Line Interface](https://www.screamingfrog.co.uk/seo-spider/user-guide/general/#command-line).
 
 ## Installation
 
