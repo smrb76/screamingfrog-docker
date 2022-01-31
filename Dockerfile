@@ -10,8 +10,8 @@ RUN apt-get update && apt-get install -y \
     fonts-wqy-zenhei \
     libgconf-2-4
 
-RUN wget --no-verbose https://download.screamingfrog.co.uk/products/seo-spider/screamingfrogseospider_10.0_all.deb && \
-    dpkg -i /screamingfrogseospider_10.0_all.deb && \
+RUN wget --no-verbose https://download.screamingfrog.co.uk/products/seo-spider/screamingfrogseospider_16.5_all.deb && \
+    dpkg -i /screamingfrogseospider_16.5_all.deb && \
     apt-get install -f -y
 
 COPY spider.config /root/.ScreamingFrogSEOSpider/spider.config
